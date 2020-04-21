@@ -1,0 +1,106 @@
+.current-playing-header {
+  background-repeat: repeat;
+  background-size: 100%;
+  height: 242px;
+  background-position-y: 0px;
+  background-repeat: no-repeat;
+  width: 1080px;
+
+  &__container {
+    background-image: linear-gradient(
+      rgba(255, 255, 255, 0.1),
+      rgba(0, 0, 0, 0.9)
+    );
+
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+
+    .artist {
+      display: flex;
+      flex-direction: column;
+      font-weight: bold;
+      color: #fff;
+      margin-left: 20px;
+      margin-top: 20p;
+      text-transform: uppercase;
+      font-size: 11px;
+
+      p {
+        font-size: 40px;
+        margin: 0;
+        text-transform: capitalize;
+        margin-top: 8px;
+      }
+    }
+
+    .actions-container {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      margin-top: auto;
+      width: 100%;
+
+      .buttons-container {
+        display: flex;
+        height: 51px;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 6px;
+        padding: 0;
+
+        .monthly-listeners {
+          color: #d3d3d3;
+          display: flex;
+          flex-direction: column;
+          font-size: 11px;
+          letter-spacing: 1.3px;
+          margin-right: 20px;
+          padding-top: 27px;
+
+          a {
+            color: #d3d3d3;
+            text-decoration: none;
+            outline: none;
+
+            &:hover {
+              color: #fff;
+            }
+          }
+        }
+      }
+    }
+
+    button {
+      border-radius: 11px;
+      border: none;
+      color: #fff;
+      font-size: 9px;
+      font-weight: bold;
+      text-transform: uppercase;
+      height: 24px;
+
+      &.pause {
+        background-color: #4caf50;
+        width: 68px;
+      }
+
+      &.black--border-white {
+        background-color: rgba(0, 0, 0, 0.9);
+        opacity: 0.9;
+        border: 1px solid #fff;
+      }
+
+      &.following {;
+        width: 106px;
+      }
+
+      &.more-actions {
+        font-size: 12px;
+        width: 23px;
+        padding: 0 0 11px 0;
+        text-align: center;
+      }
+    }
+  }
+}

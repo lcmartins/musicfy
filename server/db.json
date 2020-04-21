@@ -1,0 +1,43 @@
+{
+  "artistMenu": [
+    {
+      "name": "overview",
+      "isSelected": true
+    },
+    {
+      "name": "fans also like",
+      "isSelected": false
+    },
+    {
+      "name": "about",
+      "isSelected": false
+    },
+    {
+      "name": "concerns",
+      "isSelected": false
+    }
+  ],
+  "artists": [
+    {
+      "id": 1,
+      "name": "paradise lost",
+      "granHeaderImage": "https://crypticrock.com/wp-content/uploads/2014/01/paradise-lost-cover.jpg",
+      "tinyImage": "https://pm1.narvii.com/6095/9b9f80fcbbe413157d05f05496b093a12c1f0827_128.jpg",
+      "type": "artist"
+    },
+    {
+      "id": 2,
+      "name": "megadeth",
+      "granHeaderImage": "https://cdn.ome.lt/6D7VbdqqtJeVX-G3raWeJ_Mlc7s=/fit-in/837x500/smart/uploads/conteudo/fotos/kiko_dave_dirk_e_dave.jpg",
+      "tinyImage": "https://pm1.narvii.com/6382/4bdc62dd65f87330d102ad9a4c2b9ae71d10f1d0_128.jpg",
+      "type": "artist"
+    },
+    {
+      "id": 3,
+      "name": "opeth",
+      "granHeaderImage": "https://ogimg.infoglobo.com.br/in/16571564-e30-220/FT1086A/652/x20150624150605-78262.jpg.pagespeed.ic.8uutMx7cXn.jpg",
+      "tinyImage": "https://pm1.narvii.com/7442/5b2caddfee10814ccdc180f9a1a4ceea07a033c8r1-670-670v2_128.jpg",
+      "type": "artist"
+    }
+  ]
+}

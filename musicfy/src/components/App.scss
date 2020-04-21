@@ -1,0 +1,12 @@
+body {
+  background: #141414;
+}
+.app-container {
+  display: flex;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  justify-content: center;
+
+  .left-menu {
+    color: #fff
+  }
+}

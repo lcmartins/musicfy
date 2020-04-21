@@ -1,0 +1,35 @@
+.menu {
+  color: #fff;
+  margin-top: 12px;
+
+  .menu-container {
+    display: flex;
+    padding-left: 0;
+    margin: 0 0 0 20px;
+    justify-content: space-between;
+    width: 338px;
+
+    li {
+      height: 30px;
+      list-style: none;
+      cursor: pointer;
+
+      .selection-marker {
+        display: flex;
+        height: 1.5px;
+        justify-content: space-around;
+
+        .marker {
+          height: 100%;
+          margin-top: 4px;
+          width: 20px;
+          transition: background 0.2s;
+
+          &--selected {
+            background: green;
+          }
+        }
+      }
+    }
+  }
+}

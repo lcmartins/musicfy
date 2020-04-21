@@ -1,0 +1,35 @@
+nav.menu-container {
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  min-width: 150px;
+
+  ul {
+    li {
+      list-style: none;
+      height: 30px;
+
+      .item-content-container {
+        display: flex;
+
+        div {
+          display: flex;
+
+          svg {
+            display: table-cell;
+            filter: invert(100%);
+            height: 20px;
+            -webkit-filter: invert(100%);
+            width: 20px;
+            vertical-align: middle;
+          }
+        }
+
+        p {
+          line-height: 0;
+          margin-left: 15px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.bar-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: #fff;
+  margin-bottom: 52px;
+  margin-top: 10px;
+
+  &__search {
+    border: none;
+    border-radius: 15px;
+    width: 140px;
+  }
+
+  .profile-header {
+    display: flex;
+
+    .profile {
+      display: table;
+      min-width: 85px;
+  
+      svg {
+        display: table-cell;
+        filter: invert(100%);
+        height: 20px;
+        -webkit-filter: invert(100%);
+        width: 20px;
+        vertical-align: middle;
+      }
+  
+      span {
+        display: table-cell;
+        font-size: 10px;
+        padding-left: 10px;
+        text-align: right;
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .upgrade {
+    height: 20px;
+    margin-right: 10px;
+    width: 80px;
+  }
+}

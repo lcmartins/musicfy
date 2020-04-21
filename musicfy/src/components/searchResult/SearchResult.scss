@@ -1,0 +1,45 @@
+h1 {
+  color: #fff;
+}
+
+.container-search-result {
+  position: relative;
+  top: -200px;
+  background-color: #666;
+  height: 100%;
+  width: 100%;
+
+  .searchResult {
+    padding: 0;
+
+    li {
+      display: flex;
+      color: #fff;
+      margin-bottom: 30px;
+
+      &:hover {
+        background-color: #323232;
+      }
+      article {
+        display: flex;
+        flex-direction: column;
+
+        span {
+          margin-left: 20px;
+          font-size: 10px;
+
+          &:first-child {
+            font-weight: bold;
+            text-transform: capitalize;
+            margin-bottom: 6px;
+            margin-top: 4px;
+          }
+
+          &:last-child {
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}
