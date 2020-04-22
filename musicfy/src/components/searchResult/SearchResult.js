@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { connect } from "react-redux";
 import "./SearchResult.scss";
-import cx from 'classnames';
 import {
   chooseArtist,
   saveRelated,
@@ -11,11 +10,12 @@ import {
 import history from "../../history";
 import UserTopBar from "../userTopBar/UserTopBar";
 import { useSearchResult } from "./useSearchResult";
-
+import RelatedArtists from "../related-artists/RelatedArtists";
+import FoundItem from "./foundItem/FoundItem";
+import SearchHistory from "./searchHistory/SearchHistory";
 
 function SearchResult(props) {
   useSearchResult(props);
-  const [mouseIsOver, setMouseIsOver] = useState(false);
   const {
     chooseArtist,
     foundItem,
@@ -29,95 +29,22 @@ function SearchResult(props) {
     history.push("/nowPlaying");
   };
 
-  const setEventOnMouseMove = (event) => {
-    setMouseIsOver(event.type === 'mouseenter')
-  };
-
-  function renderSearchHistory() {
+  function renderItemOrHistory() {
     if (foundItem === undefined) {
       return (
-        <ul className="searchResult">
-          {searchHistory.map((artist) => {
-            const backGroundImage = {
-              backgroundImage: `url(${artist.tinyImage})`,
-              backgroundSize: "60px 60px",
-              backgroundRepeat: "no-repeat",
-              height: "40px",
-              width: "40px",
-              borderRadius: "20px",
-            };
-            return (
-              <li onClick={() => pickArtist(artist)}>
-                <div style={backGroundImage}></div>
-                <article>
-                  <span>{artist.name}</span>
-                  <span>{artist.type}</span>
-                </article>
-              </li>
-            );
-          })}
-        </ul>
+        <SearchHistory pickArtist={pickArtist} searchHistory={searchHistory} />
       );
     }
-
-    const backGroundImage = {
-      backgroundImage: `url(${foundItem.tinyImage})`,
-      backgroundSize: "107px 106px",
-      backgroundRepeat: "no-repeat",
-      height: "87px",
-      width: "92px",
-      borderRadius: "43px",
-    };
-
     return (
-      <div className="found-item-container">
-        <div
-          className="found-item"
-          onClick={() => pickArtist(foundItem)}
-          onMouseEnter={(e) => {
-            setEventOnMouseMove(e);
-          }}
-          onMouseLeave={(e) => {
-            setEventOnMouseMove(e);
-          }}
-        >
-          <div style={backGroundImage} />
-          <div className="name-and-play-button-container">
-            <p className="artist-name">{foundItem.name}</p>
-            <div className={cx("play-button", {"hidden": mouseIsOver === false})}>
-              <div className="arrow-right"></div>
-            </div>
-          </div>
-          <div className="found-item__type">{foundItem.type}</div>
-        </div>
-        {musicsOnSearch ? (
-          <ul className="music-search-list">
-            {musicsOnSearch.map((album) => {
-              const backgroundMusicImage = {
-                ...backGroundImage,
-                backgroundSize: "55px 50px",
-                height: "50px",
-                width: "55px",
-                borderRadius: "0px",
-                backgroundImage: `url(${album.cover})`,
-              };
-              return (
-                <li className="music-item">
-                  <div style={backgroundMusicImage}></div>
-                  <div className="description-container">
-                    <span>{album.music}</span>
-                    <span>{album.artist}</span>
-                  </div>
-                </li>
-              );
-            })}
-          </ul>
-        ) : null}
-      </div>
+      <FoundItem
+        foundItem={foundItem}
+        musicsOnSearch={musicsOnSearch}
+        pickArtist={pickArtist}
+      />
     );
   }
 
-  function renderTitle() {
+  function renderTitles() {
     if (foundItem) {
       return (
         <div className="header-section">
@@ -126,52 +53,24 @@ function SearchResult(props) {
         </div>
       );
     }
-
     if (searchHistory.length) {
       return <h1>Recent searchs</h1>;
     }
-
     return <h1>Seus generos favoritos</h1>;
   }
 
   function renderRelated() {
     if (relatedAlbums && relatedAlbums.length) {
-      return (
-        <React.Fragment>
-          <div>
-            <h3>related</h3>
-            <ul className="related-artist">
-              {relatedAlbums.map((related) => {
-                const backgroundMusicImage = {
-                  backgroundRepeat: "no-repeat",
-                  backgroundSize: "90px 90px",
-                  height: "90px",
-                  width: "90px",
-                  borderRadius: "0px",
-                  backgroundImage: `url(${related.tinyImage})`,
-                };
-                return (
-                  <li className="music-item">
-                    <div style={backgroundMusicImage}></div>
-                    <div className="description-container">
-                      <span>{related.name}</span>
-                      <span>{related.from}</span>
-                    </div>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        </React.Fragment>
-      );
+      return <RelatedArtists relatedAlbums={relatedAlbums} pickArtist={pickArtist} />;
     }
     return null;
   }
+
   return (
     <div className="container-search-result">
       <UserTopBar id={1245454874414} />
-      {renderTitle()}
-      {renderSearchHistory()}
+      {renderTitles()}
+      {renderItemOrHistory()}
       {renderRelated()}
     </div>
   );

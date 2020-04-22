@@ -1,0 +1,68 @@
+.found-item-container {
+  display: flex;
+
+  .found-item {
+    background: #2f2f2f;
+    color: #fff;
+    width: 265px;
+    padding: 14px 0 0 14px;
+    align-content: center;
+    border-radius: 5px;
+    height: 161px;
+
+    .name-and-play-button-container {
+      display: flex;
+      justify-content: space-between;
+
+      .artist-name {
+        text-transform: capitalize;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 0;
+      }
+    }
+    
+    &__type {
+      text-transform: uppercase;
+      width: 50px;
+      background: #141414;
+      border-radius: 10px;
+      font-size: 9px;
+      font-weight: bold;
+      text-align: center;
+      height: 17px;
+      display: table-cell;
+      vertical-align: middle;
+    }
+  }
+
+  .music-search-list {
+    margin-top: 0;
+    width: 200px;
+    padding: 0;
+    margin-left: 10px;
+
+    .music-item {
+      display: flex;
+      height: 46px;
+      margin-bottom: 16px;
+
+      .description-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 12px;
+      }
+    }
+    span:first-of-type {
+      color: #fff;
+      font-weight: bold;
+      margin-bottom: 3px;
+    }
+    span {
+      color: #d3d3d3;
+      display: block;
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.play-button {
+    cursor: pointer;
+    width: 30px;
+    background: green;
+    height: 30px;
+    border-radius: 16px;
+    margin-top: 10px;
+    margin-right: 18px;
+  
+    .arrow-right {
+      width: 0;
+      height: 0;
+      border-top: 6px solid transparent;
+      border-bottom: 6px solid transparent;
+      border-left: 10px solid #fff;
+      top: 9px;
+      position: relative;
+      left: 12px;
+    }
+  }
