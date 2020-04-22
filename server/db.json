@@ -41,6 +41,30 @@
       "tinyImage": "https://pm1.narvii.com/7442/5b2caddfee10814ccdc180f9a1a4ceea07a033c8r1-670-670v2_128.jpg",
       "type": "artist",
       "from": "de musicfy"
+    },
+    {
+      "id": 4,
+      "name": "katatonia",
+      "granHeaderImage": "https://townsquare.media/site/366/files/2020/03/Katatonia-2020.jpg",
+      "tinyImage": "https://pm1.narvii.com/6411/e2b717c1f737a165c8c8dc37a46caf4d1a1f6bd6_128.jpg",
+      "type": "artist",
+      "from": "de musicfy"
+    },
+    {
+      "id": 5,
+      "name": "my dying bride",
+      "granHeaderImage": "https://i2.wp.com/rockdeverdade.com.br/wp-content/uploads/2020/01/mydyingbride.jpg?fit=1200%2C675",
+      "tinyImage": "https://pm1.narvii.com/6402/86b9127567558d66b9b85deb407cf55daafbb92a_128.jpg",
+      "type": "artist",
+      "from": "de musicfy"
+    },
+    {
+      "id": 6,
+      "name": "black sabath",
+      "granHeaderImage": "https://abrilveja.files.wordpress.com/2020/02/black-sabbath-1970-404.jpg",
+      "tinyImage": "https://pm1.narvii.com/6782/edc2238e704b848723553ae040ff4dedb5e590fcv2_128.jpg",
+      "type": "artist",
+      "from": "de musicfy"
     }
   ],
   "albums": [
@@ -49,81 +73,84 @@
       "artist": 1,
       "name": "tragic idol",
       "cover": "https://3.bp.blogspot.com/-8Nx5nRqp7JU/UbMOmIUTS_I/AAAAAAAAAXg/VJxXwqrdPJM/s1600/1000x1000.jpg",
-      "musicas": [
-        "tragic idol"
-      ]
+      "musicas": ["tragic idol"]
     },
     {
       "id": 2,
       "artist": 1,
       "name": "icon",
       "cover": "https://www.spirit-of-metal.com/les%20goupes/P/Paradise%20Lost/Icon/Icon_2960.jpg",
-      "musicas": [
-        "colossal rain"
-      ]
+      "musicas": ["colossal rain"]
     },
     {
       "id": 3,
       "artist": 1,
       "name": "draconian times",
       "cover": "https://images-na.ssl-images-amazon.com/images/I/81JbjOJxuOL.jpg",
-      "musicas": [
-        "hallowed land"
-      ]
+      "musicas": ["hallowed land"]
     },
     {
       "id": 5,
       "artist": 2,
       "name": "rust in peace",
       "cover": "https://images-na.ssl-images-amazon.com/images/I/81aDxiohznL._AC_SX355_.jpg",
-      "musicas": [
-        "hangar 18"
-      ]
+      "musicas": ["hangar 18"]
     },
     {
       "id": 6,
       "artist": 2,
       "name": "Youthanasia",
       "cover": "https://cache.desktopnexus.com/thumbseg/89/89075-bigthumbnail.jpg",
-      "musicas": [
-        "black curtains"
-      ]
+      "musicas": ["black curtains"]
     },
     {
       "id": 7,
       "artist": 2,
       "name": "so far, so good... so what?",
       "cover": "https://upload.wikimedia.org/wikipedia/pt/7/7f/Megadeth-SoFar.jpg",
-      "musicas": [
-        "hallowed land"
-      ]
+      "musicas": ["hallowed land"]
     },
     {
       "id": 8,
       "artist": 3,
       "name": "herigate",
       "cover": "https://i.pinimg.com/originals/78/35/e7/7835e7c70810df1bc9840d7fe819fc03.jpg",
-      "musicas": [
-        "heritage"
-      ]
+      "musicas": ["heritage"]
     },
     {
       "id": 9,
       "artist": 3,
       "name": "ghost reveries",
       "cover": "https://upload.wikimedia.org/wikipedia/pt/2/20/Opeth-ghost-reveries.jpg",
-      "musicas": [
-        "black curtains"
-      ]
+      "musicas": ["black curtains"]
     },
     {
       "id": 10,
       "artist": 3,
       "name": "blackwater park",
       "cover": "https://i.pinimg.com/originals/d7/bd/a8/d7bda8056f5012380e65b3c9848ec8d2.jpg",
-      "musicas": [
-        "bleak"
-      ]
+      "musicas": ["bleak"]
+    },
+    {
+      "id": 11,
+      "artist": 6,
+      "name": "the ultimate collection",
+      "cover": "https://m.media-amazon.com/images/I/61X0Y4tpmuL._AA256_.jpg",
+      "musicas": ["sabath bloddy sabath"]
+    },
+    {
+      "id": 12,
+      "artist": 6,
+      "name": "master of reality",
+      "cover": "https://pbs.twimg.com/profile_images/697407516083224576/SV6P2VEM_400x400.jpg",
+      "musicas": ["master of reality"]
+    },
+    {
+      "id": 13,
+      "artist": 6,
+      "name": "13",
+      "cover": "https://st.cdjapan.co.jp/pictures/s/10/13/UICN-1034.jpg?v=1",
+      "musicas": ["war pigs"]
     }
   ]
 }

@@ -6,7 +6,7 @@ function useSearchResult(props) {
 
     async function search(text) {
         const { data } = await httpClient.get('/artists');
-        const found = data.filter(artist => artist.name.includes(text)).shift();
+        const found = data.filter(artist => artist.name.toUpperCase().includes(text.toUpperCase())).shift();
         if (found) {
             saveFoundOnSearch(found);
             const result = await httpClient.get('/albums');
