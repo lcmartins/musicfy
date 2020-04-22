@@ -7,14 +7,23 @@ nav.menu-container {
   ul {
     li {
       list-style: none;
-      height: 30px;
+      height: 40px;
+
+      :hover {
+        background: #323232;
+      }
 
       .item-content-container {
-        display: flex;
+        display: table;
+        height: 40px;
+        margin-bottom: 10px;
+        width: 100px;
 
         div {
-          display: flex;
-
+          display: table-cell;
+          vertical-align: middle;
+          width: 40px;
+          
           svg {
             display: table-cell;
             filter: invert(100%);
@@ -26,8 +35,10 @@ nav.menu-container {
         }
 
         p {
+          display: table-cell;
           line-height: 0;
           margin-left: 15px;
+          vertical-align: middle;
         }
       }
     }

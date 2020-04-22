@@ -1,3 +1,6 @@
+export const FOUND_ON_SEARCH = 'FOUND_ON_SEARCH';
 export const NEW_ARTIST = 'NEW_ARTIST';
 export const NEW_SEARCH_VALUE = 'NEW_SEARCH_VALUE';
 export const DID_SEARCH = 'DID_SEARCH';
+export const SAVE_RELATED = 'SAVE_RELATED';
+export const SAVE_MUSICS_ON_SEARCH = 'SAVE_MUSICS_ON_SEARCH';

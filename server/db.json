@@ -23,21 +23,107 @@
       "name": "paradise lost",
       "granHeaderImage": "https://crypticrock.com/wp-content/uploads/2014/01/paradise-lost-cover.jpg",
       "tinyImage": "https://pm1.narvii.com/6095/9b9f80fcbbe413157d05f05496b093a12c1f0827_128.jpg",
-      "type": "artist"
+      "type": "artist",
+      "from": "de musicfy"
     },
     {
       "id": 2,
       "name": "megadeth",
       "granHeaderImage": "https://cdn.ome.lt/6D7VbdqqtJeVX-G3raWeJ_Mlc7s=/fit-in/837x500/smart/uploads/conteudo/fotos/kiko_dave_dirk_e_dave.jpg",
       "tinyImage": "https://pm1.narvii.com/6382/4bdc62dd65f87330d102ad9a4c2b9ae71d10f1d0_128.jpg",
-      "type": "artist"
+      "type": "artist",
+      "from": "de musicfy"
     },
     {
       "id": 3,
       "name": "opeth",
       "granHeaderImage": "https://ogimg.infoglobo.com.br/in/16571564-e30-220/FT1086A/652/x20150624150605-78262.jpg.pagespeed.ic.8uutMx7cXn.jpg",
       "tinyImage": "https://pm1.narvii.com/7442/5b2caddfee10814ccdc180f9a1a4ceea07a033c8r1-670-670v2_128.jpg",
-      "type": "artist"
+      "type": "artist",
+      "from": "de musicfy"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "artist": 1,
+      "name": "tragic idol",
+      "cover": "https://3.bp.blogspot.com/-8Nx5nRqp7JU/UbMOmIUTS_I/AAAAAAAAAXg/VJxXwqrdPJM/s1600/1000x1000.jpg",
+      "musicas": [
+        "tragic idol"
+      ]
+    },
+    {
+      "id": 2,
+      "artist": 1,
+      "name": "icon",
+      "cover": "https://www.spirit-of-metal.com/les%20goupes/P/Paradise%20Lost/Icon/Icon_2960.jpg",
+      "musicas": [
+        "colossal rain"
+      ]
+    },
+    {
+      "id": 3,
+      "artist": 1,
+      "name": "draconian times",
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/81JbjOJxuOL.jpg",
+      "musicas": [
+        "hallowed land"
+      ]
+    },
+    {
+      "id": 5,
+      "artist": 2,
+      "name": "rust in peace",
+      "cover": "https://images-na.ssl-images-amazon.com/images/I/81aDxiohznL._AC_SX355_.jpg",
+      "musicas": [
+        "hangar 18"
+      ]
+    },
+    {
+      "id": 6,
+      "artist": 2,
+      "name": "Youthanasia",
+      "cover": "https://cache.desktopnexus.com/thumbseg/89/89075-bigthumbnail.jpg",
+      "musicas": [
+        "black curtains"
+      ]
+    },
+    {
+      "id": 7,
+      "artist": 2,
+      "name": "so far, so good... so what?",
+      "cover": "https://upload.wikimedia.org/wikipedia/pt/7/7f/Megadeth-SoFar.jpg",
+      "musicas": [
+        "hallowed land"
+      ]
+    },
+    {
+      "id": 8,
+      "artist": 3,
+      "name": "herigate",
+      "cover": "https://i.pinimg.com/originals/78/35/e7/7835e7c70810df1bc9840d7fe819fc03.jpg",
+      "musicas": [
+        "heritage"
+      ]
+    },
+    {
+      "id": 9,
+      "artist": 3,
+      "name": "ghost reveries",
+      "cover": "https://upload.wikimedia.org/wikipedia/pt/2/20/Opeth-ghost-reveries.jpg",
+      "musicas": [
+        "black curtains"
+      ]
+    },
+    {
+      "id": 10,
+      "artist": 3,
+      "name": "blackwater park",
+      "cover": "https://i.pinimg.com/originals/d7/bd/a8/d7bda8056f5012380e65b3c9848ec8d2.jpg",
+      "musicas": [
+        "bleak"
+      ]
     }
   ]
 }

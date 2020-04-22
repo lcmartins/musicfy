@@ -70,37 +70,5 @@
         }
       }
     }
-
-    button {
-      border-radius: 11px;
-      border: none;
-      color: #fff;
-      font-size: 9px;
-      font-weight: bold;
-      text-transform: uppercase;
-      height: 24px;
-
-      &.pause {
-        background-color: #4caf50;
-        width: 68px;
-      }
-
-      &.black--border-white {
-        background-color: rgba(0, 0, 0, 0.9);
-        opacity: 0.9;
-        border: 1px solid #fff;
-      }
-
-      &.following {;
-        width: 106px;
-      }
-
-      &.more-actions {
-        font-size: 12px;
-        width: 23px;
-        padding: 0 0 11px 0;
-        text-align: center;
-      }
-    }
   }
 }

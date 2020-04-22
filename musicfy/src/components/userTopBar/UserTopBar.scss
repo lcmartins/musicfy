@@ -11,7 +11,13 @@
     border: none;
     border-radius: 15px;
     width: 140px;
+    z-index: 10;
+
+    &--hidden {
+      visibility: hidden;
+    }
   }
+
 
   .profile-header {
     display: flex;

@@ -18,7 +18,7 @@ function ArtistPlayingGranHeader(props) {
     <header className="current-playing-header" style={backGroundImage}>
       <section className="current-playing-header__container">
         <div className="actions-container">
-          <UserTopBar id={1245454874414} />
+          <UserTopBar id={1245454874414} showSearchInput={false} />
           <article className="artist">
             <span>artist</span>
             <p>{props.artist.name || null}</p>
