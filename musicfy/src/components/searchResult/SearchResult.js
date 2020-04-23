@@ -56,12 +56,19 @@ function SearchResult(props) {
     if (searchHistory.length) {
       return <h1>Recent searchs</h1>;
     }
-    return <h1>Seus generos favoritos</h1>;
+    return (
+      <React.Fragment>
+        <h1>Favorite genres is under construction but search is available!</h1>
+        <img className="under-construction" src="https://abrilsuperinteressante.files.wordpress.com/2018/04/o-heavy-metal-nc3a3o-existiria-se-nc3a3o-fosse-a-mc3basica-c3a1rabe.png?w=1024" />
+      </React.Fragment>
+    );
   }
 
   function renderRelated() {
     if (relatedAlbums && relatedAlbums.length) {
-      return <RelatedArtists relatedAlbums={relatedAlbums} pickArtist={pickArtist} />;
+      return (
+        <RelatedArtists relatedAlbums={relatedAlbums} pickArtist={pickArtist} />
+      );
     }
     return null;
   }

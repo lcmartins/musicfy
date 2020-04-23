@@ -1,5 +1,14 @@
+html {
+  overflow-y: scroll;
+}
 body {
   background: #000;
+
+  .under-construction {
+    height: 300px;
+    width: 400;
+    border-radius: 5px;
+  }
 }
 .app-container {
   display: flex;
@@ -7,7 +16,7 @@ body {
   justify-content: center;
 
   .main-section {
-    width: 1080px;
+    min-width: 1080px;
   }
   .left-menu {
     color: #fff

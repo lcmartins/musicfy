@@ -24,7 +24,8 @@
       "granHeaderImage": "https://crypticrock.com/wp-content/uploads/2014/01/paradise-lost-cover.jpg",
       "tinyImage": "https://pm1.narvii.com/6095/9b9f80fcbbe413157d05f05496b093a12c1f0827_128.jpg",
       "type": "artist",
-      "from": "de musicfy"
+      "from": "de musicfy",
+      "about": "Paradise Lost are a gothic metal band that formed in 1988 in Halifax, England, and are considered by some to be the pioneers of the death-doom genre,[5] and regarded as the main influence for the later gothic metal movement.[6] Bands that have cited Paradise Lost as an influence, or have covered them, include My Dying Bride,[7] Anathema,[7] The Gathering,[7] Amorphis,[8] Cradle of Filth,[9] Katatonia,[10] Moonspell,[11] Lacuna Coil,[12] HIM,[12] Nightwish[12] and many others. As of 2005, Paradise Lost have sold over two million albums worldwide.[13]Their line-up has remained stable for such a long-standing heavy metal band, consisting of singer Nick Holmes, guitarists Greg Mackintosh and Aaron Aedy, and bassist Steve Edmondson. Holmes and Mackintosh are the principal composers, with almost all of the band's songs credited to them. During the years, the band has only changed drummers. "
     },
     {
       "id": 2,
@@ -65,6 +66,72 @@
       "tinyImage": "https://pm1.narvii.com/6782/edc2238e704b848723553ae040ff4dedb5e590fcv2_128.jpg",
       "type": "artist",
       "from": "de musicfy"
+    },
+    {
+      "id": 7,
+      "name":  "type o negative",
+      "granHeaderImage": "https://omusicologo.files.wordpress.com/2013/03/type-o-negative-2.jpg",
+      "tinyImage": "https://buben.fm/img/artist/256/80310.png",
+      "type": "artist",
+      "from": "de musicfy"
+    },
+
+
+    {
+      "id": 8,
+      "name": "sepultura",
+      "granHeaderImage": "https://ebvadmin.com.br/public/images/noti-1581449253.jpg",
+      "tinyImage": "https://d1marr3m5x4iac.cloudfront.net/images/block/I0-001/004/209/866-0.jpeg_/sepultura-66.jpeg",
+      "type": "artist",
+      "from": "de musicfy"
+    },
+    {
+      "id": 9,
+      "name": "amorphis",
+      "granHeaderImage": "https://2.bp.blogspot.com/-JG7u63cfxI4/VfH92YFPfFI/AAAAAAAABuw/cG57o082RQo/s1600/Band.jpg",
+      "tinyImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHIogiyKuKX8LqHEXf0IG5w8w_pkhWuYfNyt-SQfRh8FVhqbZe&usqp=CAU",
+      "type": "artist",
+      "from": "de musicfy"
+    },
+    {
+      "id": 10,
+      "name": "doom",
+      "granHeaderImage": "https://cvltnation.com/wp-content/uploads/2014/04/feat_doom.jpg",
+      "tinyImage": "https://pm1.narvii.com/6099/8e5a33107bbda9c7cbf8ea2095bbcf73b03b54f0_128.jpg",
+      "type": "artist",
+      "from": "de musicfy"
+    },
+    {
+      "id": 11,
+      "name": "danzing",
+      "granHeaderImage": "https://lh3.googleusercontent.com/proxy/u8t-PSh0GQjR8Gu7cfaBsH7rbAr4e1lEOXxRPbE0rf2XGfMAbcaC2PAQHwLqmZ5CT5TBmbusNp90fmgI5u_N_cruWAZlgXKYF4K3rMP4XErGKpwk",
+      "tinyImage": "https://c-sf.smule.com/rs-s77/arr/cd/86/6f36595a-fd37-40ed-8ee7-50b3cd11bec0.jpg",
+      "type": "artist",
+      "from": "de musicfy"
+    },
+    {
+      "id": 12,
+      "name": "novembers doom",
+      "granHeaderImage": "https://t4z5n2e5.stackpathcdn.com/wp-content/uploads/2019/11/novembers-doom-promo.jpg",
+      "tinyImage": "https://zvooq.me/uploads/img_track/74e573016a0d98c6b5063c3168bf1a23.jpg",
+      "type": "artist",
+      "from": "de musicfy"
+    },
+    {
+      "id": 13,
+      "name": "cathedral",
+      "granHeaderImage": "https://www.metal-observer.com/wordpress/wp-content/uploads/2015/06/1280x720.jpg",
+      "tinyImage": "https://pm1.narvii.com/6321/c49e06b139e4c0f7c7afb17866e4a7641bb6ac54_128.jpg",
+      "type": "artist",
+      "from": "de musicfy"
+    },
+    {
+      "id": 14,
+      "name":  "anathema",
+      "granHeaderImage": "https://underanewmoon.files.wordpress.com/2017/02/anathema-band-photo.jpg",
+      "tinyImage": "https://pm1.narvii.com/6369/2f9dac5bddc0a55ecd2feba4c3bcebdace39a8cf_128.jpg",
+      "type": "artist",
+      "from": "de musicfy"
     }
   ],
   "albums": [
@@ -73,84 +140,84 @@
       "artist": 1,
       "name": "tragic idol",
       "cover": "https://3.bp.blogspot.com/-8Nx5nRqp7JU/UbMOmIUTS_I/AAAAAAAAAXg/VJxXwqrdPJM/s1600/1000x1000.jpg",
-      "musicas": ["tragic idol"]
+      "musicas": [{"name": "tragic idol", "duration": "6:00"}, {"name": "solitary one", "duration": "3:42"}, {"name": "crucify", "duration": "4:06"}]
     },
     {
       "id": 2,
       "artist": 1,
       "name": "icon",
       "cover": "https://www.spirit-of-metal.com/les%20goupes/P/Paradise%20Lost/Icon/Icon_2960.jpg",
-      "musicas": ["colossal rain"]
+      "musicas": [{"name":"colossal rain", "duration": "5:33"},{"name": "deus miserator", "duration": "7:00"}]
     },
     {
       "id": 3,
       "artist": 1,
       "name": "draconian times",
       "cover": "https://images-na.ssl-images-amazon.com/images/I/81JbjOJxuOL.jpg",
-      "musicas": ["hallowed land"]
+      "musicas": [{"name": "hallowed land", "duration": "4:15"}, {"name": "once solem", "duration": "4:44"}]
     },
     {
       "id": 5,
       "artist": 2,
       "name": "rust in peace",
       "cover": "https://images-na.ssl-images-amazon.com/images/I/81aDxiohznL._AC_SX355_.jpg",
-      "musicas": ["hangar 18"]
+      "musicas": [{"name": "hangar 18", "duration": "5:15"}]
     },
     {
       "id": 6,
       "artist": 2,
       "name": "Youthanasia",
       "cover": "https://cache.desktopnexus.com/thumbseg/89/89075-bigthumbnail.jpg",
-      "musicas": ["black curtains"]
+      "musicas": [{"name": "black curtains", "duration": "6:00"}]
     },
     {
       "id": 7,
       "artist": 2,
       "name": "so far, so good... so what?",
       "cover": "https://upload.wikimedia.org/wikipedia/pt/7/7f/Megadeth-SoFar.jpg",
-      "musicas": ["hallowed land"]
+      "musicas": [{"name": "hallowed land", "duration": "4:52"}]
     },
     {
       "id": 8,
       "artist": 3,
       "name": "herigate",
       "cover": "https://i.pinimg.com/originals/78/35/e7/7835e7c70810df1bc9840d7fe819fc03.jpg",
-      "musicas": ["heritage"]
+      "musicas": [{"name": "heritage", "duration": "3:42"}]
     },
     {
       "id": 9,
       "artist": 3,
       "name": "ghost reveries",
       "cover": "https://upload.wikimedia.org/wikipedia/pt/2/20/Opeth-ghost-reveries.jpg",
-      "musicas": ["black curtains"]
+      "musicas": [{ "name": "black curtains", "duration": "3:49"}]
     },
     {
       "id": 10,
       "artist": 3,
       "name": "blackwater park",
       "cover": "https://i.pinimg.com/originals/d7/bd/a8/d7bda8056f5012380e65b3c9848ec8d2.jpg",
-      "musicas": ["bleak"]
+      "musicas": [{"name": "bleak", "duration": "5:15"}]
     },
     {
       "id": 11,
       "artist": 6,
       "name": "the ultimate collection",
       "cover": "https://m.media-amazon.com/images/I/61X0Y4tpmuL._AA256_.jpg",
-      "musicas": ["sabath bloddy sabath"]
+      "musicas": [{"name": "sabath bloddy sabath", "duration": "5:35"}]
     },
     {
       "id": 12,
       "artist": 6,
       "name": "master of reality",
       "cover": "https://pbs.twimg.com/profile_images/697407516083224576/SV6P2VEM_400x400.jpg",
-      "musicas": ["master of reality"]
+      "musicas": [{"name": "master of reality", "duration": "6:33"}]
     },
     {
       "id": 13,
       "artist": 6,
       "name": "13",
       "cover": "https://st.cdjapan.co.jp/pictures/s/10/13/UICN-1034.jpg?v=1",
-      "musicas": ["war pigs"]
+      "musicas": [{"name": "war pigs", "duration": "4:49"}]
     }
   ]
 }

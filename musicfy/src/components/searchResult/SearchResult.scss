@@ -20,11 +20,14 @@ h3 {
 .container-search-result {
   position: relative;
   background-color: #141414;
-  height: 600px;
   width: calc(100% - 20px);
   top: -10px;
   padding-top: 10px;
   padding-left: 20px;
+
+  &.bar-container {
+    margin-bottom: 30px;
+  }
 
   .searchResult {
     padding: 0;

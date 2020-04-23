@@ -11,7 +11,7 @@ function useSearchResult(props) {
             saveFoundOnSearch(found);
             const result = await httpClient.get('/albums');
             const albums = result.data.filter(a => a.artist === found.id);
-            const musics = albums.reduce((a, b) => a.concat({ music: b.musicas[0], cover: b.cover, artist: found.name }), []);
+            const musics = albums.reduce((a, b) => a.concat({ music: b.musicas[0].name, cover: b.cover, artist: found.name }), []);
             saveMusicsOnSearch(musics);
             saveRelated(data.filter(artist => artist.id !== found.id));
         }

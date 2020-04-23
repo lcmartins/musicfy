@@ -1,16 +1,18 @@
 import { useState, useEffect } from "react";
 import httpClient from '../../http/httpClient';
 
-function usePlayingArtistMenu() {
+function usePlayingArtistMenu({ saveMainPlayerMenu }) {
   const [menu, setMenu] = useState([]);
 
   async function getMenu() {
     const result = await httpClient.get("/artistMenu");
+    saveMainPlayerMenu(result.data.find(m => m.name === 'overview'));
     setMenu(result.data);
   }
 
   useEffect(() => {
     getMenu();
+    selectedItem('overview')
   }, []);
 
   function selectedItem(menuText) {
@@ -22,6 +24,7 @@ function usePlayingArtistMenu() {
       }
     }
     setMenu(copyMenu);
+    saveMainPlayerMenu(copyMenu.find(m => m.isSelected));
   }
 
   return {

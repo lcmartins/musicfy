@@ -5,6 +5,7 @@ import {
   NEW_SEARCH_VALUE,
   SAVE_RELATED,
   SAVE_MUSICS_ON_SEARCH,
+  SELECT_MAIN_PLAYER_MENU_ITEM
 } from "../types/artistTypes";
 
 export const chooseArtist = (artist) => {
@@ -48,3 +49,11 @@ export const saveRelated = (albuns) => {
     payload: albuns,
   };
 };
+
+export const saveMainPlayerMenu = (menu) => {
+  console.log('salvando: ', menu)
+  return {
+    type: SELECT_MAIN_PLAYER_MENU_ITEM,
+    payload: menu
+  }
+}

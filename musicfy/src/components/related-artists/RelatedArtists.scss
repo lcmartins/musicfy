@@ -1,18 +1,24 @@
 .related-artist {
   display: flex;
   padding: 0;
-
+  flex-wrap: wrap;
+  max-width: 1000px;
   li {
     background: #2f2f2f;
     border-radius: 5px;
-    margin-right: 15px;
+    margin-right: 20px;
     display: flex;
     flex-direction: column;
     align-content: center;
+    margin-bottom: 50px;
     padding-left: 15px;
     width: 105px;
     height: 150px;
     padding-top: 15px;
+
+    &:hover {
+      background-color: #ccc;
+    }
 
     .description-container {
       .playbutton-container {
@@ -34,6 +40,10 @@
       &:last-of-type {
         color: #999;
         font-size: 10px;
+      }
+
+      &.span-over:last-of-type {
+        color: #2f2f2f
       }
     }
   }

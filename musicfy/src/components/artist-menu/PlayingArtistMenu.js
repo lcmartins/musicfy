@@ -1,10 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { connect } from 'react-redux';
 import "./PlayingArtistMenu.scss";
+import { saveMainPlayerMenu } from '../../actions/artistAction';
 import cx from "classnames";
 import { usePlayingArtistMenu } from './usePlayingArtistMenu';
 
-export default function PlayingArtistMenu() {
-  const { menu, selectedItem } = usePlayingArtistMenu();
+function PlayingArtistMenu(props) {
+  const { menu, selectedItem } = usePlayingArtistMenu(props);
+
+
   return (
     <nav className="menu">
       <ul className="menu-container">
@@ -25,3 +29,5 @@ export default function PlayingArtistMenu() {
     </nav>
   );
 }
+
+export default connect(null, { saveMainPlayerMenu })(PlayingArtistMenu);

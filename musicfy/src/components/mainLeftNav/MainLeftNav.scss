@@ -11,6 +11,7 @@ nav.menu-container {
 
       :hover {
         background: #323232;
+        cursor: pointer;
       }
 
       .item-content-container {
@@ -22,6 +23,7 @@ nav.menu-container {
         div {
           display: table-cell;
           vertical-align: middle;
+          padding-left: 5px;
           width: 40px;
           
           svg {
@@ -31,6 +33,7 @@ nav.menu-container {
             -webkit-filter: invert(100%);
             width: 20px;
             vertical-align: middle;
+            outline: none;
           }
         }
 
